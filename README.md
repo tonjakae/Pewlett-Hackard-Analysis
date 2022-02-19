@@ -2,6 +2,60 @@
 Module 7 SQL
 ## Purpose:
 To determine the number of current employees per their title, who are eligible for retirement, as well as determining current employees who were born between January 1, 1952 and December 31, 1955. Once the number of employees at eligible retirement age is determined we will know how many positions need to be filled. All employees born between January 1, 1952 and December 31, 1955 will be considered for a mentorship program, so employees who are close to retirement age can help prepare other employees to fill their positions.
+
+# Deliverable 1: The Number of Retiring Employees by Title
+
+## Retrieve the emp_no, first_name, and last_name columns from the Employees table.
+* Retrieve the title, from_date, and to_date columns from the Titles table.
+* Create a new table using the INTO clause.
+* Join both tables on the primary key.
+* Filter the data on the birth_date column to retrieve the employees who were born between 1952 and 1955. Then, order by the employee number.
+* Export the Retirement Titles table from the previous step as retirement_titles.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
+
+![image](https://user-images.githubusercontent.com/87340105/154817800-67e3fd07-6cc1-4981-86fb-9c2369668783.png)
+
+![image](https://user-images.githubusercontent.com/87340105/154817727-2e84e0be-7ab0-46c1-836b-c21abf5bca10.png)
+
+## Use the following instructions to remove these duplicates and keep only the most recent title of each employee.
+
+* Copy the query from the Employee_Challenge_starter_code.sql and add it to your Employee_Database_challenge.sql file.
+* Retrieve the employee number, first and last name, and title columns from the Retirement Titles table.
+* These columns will be in the new table that will hold the most recent title of each employee.
+* Use the DISTINCT ON statement to retrieve the first occurrence of the employee number for each set of rows defined by the ON () clause.
+
+![image](https://user-images.githubusercontent.com/87340105/154817873-0fbceb0a-832b-474d-82ff-9ddfc2a15bb3.png)
+
+* Exclude those employees that have already left the company by filtering on to_date to keep only those dates that are equal to '9999-01-01'.
+* Create a Unique Titles table using the INTO clause.
+* Sort the Unique Titles table in ascending order by the employee number and descending order by the last date (i.e., to_date) of the most recent title.
+* Export the Unique Titles table as unique_titles.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
+
+![image](https://user-images.githubusercontent.com/87340105/154817952-5d8bd2bc-ab6a-48f9-bb71-97d5ebc5621f.png)
+
+![image](https://user-images.githubusercontent.com/87340105/154818018-526815b4-a312-443d-a8ac-133075ada8ea.png)
+
+* Write another query in the Employee_Database_challenge.sql file to retrieve the number of employees by their most recent job title who are about to retire.
+
+* First, retrieve the number of titles from the Unique Titles table.
+
+![image](https://user-images.githubusercontent.com/87340105/154818145-cc726589-7d32-4507-b268-f856596800c1.png)
+
+![image](https://user-images.githubusercontent.com/87340105/154818168-7b4e531e-2f71-4c9d-96a3-c26bdd007c6b.png)
+
+* Then, create a Retiring Titles table to hold the required information.
+* Group the table by title, then sort the count column in descending order.
+* Export the Retiring Titles table as retiring_titles.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
+
+![image](https://user-images.githubusercontent.com/87340105/154818233-42e374e8-c64e-4a77-9a01-d4b8b29d1faf.png)
+
+![image](https://user-images.githubusercontent.com/87340105/154818294-201c9b9e-b390-4129-8744-f0dfafa93abf.png)
+
+# Deliverable 2: The Employees Eligible for the Mentorship Program
+
+
+
+
+
 ## Results: 
 •	There are currently 300,024 employees in the company. 
 
