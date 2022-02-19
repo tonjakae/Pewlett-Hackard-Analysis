@@ -52,9 +52,29 @@ To determine the number of current employees per their title, who are eligible f
 
 # Deliverable 2: The Employees Eligible for the Mentorship Program
 
+## Write a query to create a Mentorship Eligibility table that holds the employees who are eligible to participate in a mentorship program.
 
+* Retrieve the emp_no, first_name, last_name, and birth_date columns from the Employees table.
+* Retrieve the from_date and to_date columns from the Department Employee table.
+* Retrieve the title column from the Titles table.
+* Use a DISTINCT ON statement to retrieve the first occurrence of the employee number for each set of rows defined by the ON () clause.
+* Create a new table using the INTO clause.
+* Join the Employees and the Department Employee tables on the primary key.
+* Join the Employees and the Titles tables on the primary key.
+* Filter the data on the to_date column to all the current employees, then filter the data on the birth_date columns to get all the employees whose birth dates are between January 1, 1965 and December 31, 1965.
+* Order the table by the employee number.
 
+![image](https://user-images.githubusercontent.com/87340105/154818698-73c1d32c-f71c-4a87-870a-50f20fc292a9.png)
 
+![image](https://user-images.githubusercontent.com/87340105/154818706-685957d2-7b71-4c00-b88d-d9036cbaa4eb.png)
+
+![image](https://user-images.githubusercontent.com/87340105/154818739-03de640b-cbc5-4c4b-b26c-7273641f00ca.png)
+
+* Export the Mentorship Eligibility table as mentorship_eligibilty.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
+
+![image](https://user-images.githubusercontent.com/87340105/154818767-92b424ec-3562-41b2-abf9-2e952bdbb1ba.png)
+
+![image](https://user-images.githubusercontent.com/87340105/154818828-d7e76e97-9727-4701-9465-a276f0518089.png)
 
 ## Results: 
 •	There are currently 300,024 employees in the company. 
