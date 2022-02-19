@@ -87,8 +87,8 @@ To determine the number of retiring employees per title, and identify employees 
 
 
 ## Summary: 
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-  - As the “silver tsunami” begins to make an impact, 42,929 roles will need to be filled in the current or near future.
+### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+  - There are 42, 929 roles that will need to be filled once the “silver tsunami” begins to make an impact.
 
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-  - Currently there are 1,549 retirement-ready employees in the _departments to mentor the next generation of Pewlett Hackard employees. As there are 41,380 who are eligible for retirement now. Between these two groups there is a possiblity that there will be enough employees to the next generation depending on how many would be willing to do so. If there are some that are eligible to retire now willing to come and mentor on a part-time basis, possibly mentor more than one employee at once than this could help lessen the need for concern. 
+### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+  - No, currently there are 1,549 retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees. 
